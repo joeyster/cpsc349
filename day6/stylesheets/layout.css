@@ -1,6 +1,11 @@
 /* Add layouts here */
 
 /* Layout 1 */
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+}
 
 /* Layout 2 */
 
