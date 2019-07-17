@@ -26,22 +26,35 @@
 
 /* Layout 3 */
 body {
-    display:flex;
+    display: flex;
     flex-direction: column;
 }
-  
+
 header {
-    order: 1;
+    background-color: red;
+    order: -2
 }
 
 footer {
-    order: 2;
+    background-color: green;
+    order: -1
 }
 
-nav {
-    order: 3;
+main { 
+    background-color: blue;
+    display: flex;
+    justify-content: center;
 }
-  
 
+.navigation {
+    display: flex;
+    justify-content: flex-start;
+    background-color: pink;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+    background-color: pink;
+}
 /* Layout 4 */
-
