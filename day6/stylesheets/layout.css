@@ -15,7 +15,6 @@
 } */
 
 /* Layout 2 */
-
 /* .navigation {
   display: flex;
   justify-content: flex-end;
@@ -25,8 +24,24 @@
   justify-content: flex-end;
 } */
 
-
 /* Layout 3 */
+body {
+    display:flex;
+    flex-direction: column;
+}
+  
+header {
+    order: 1;
+}
+
+footer {
+    order: 2;
+}
+
+nav {
+    order: 3;
+}
+  
 
 /* Layout 4 */
 
