@@ -31,30 +31,28 @@ body {
 }
 
 header {
-    background-color: red;
     order: -2
 }
 
 footer {
-    background-color: green;
     order: -1
 }
 
-main { 
-    background-color: blue;
+.middle {
+    order: 0;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+}
+
+main { 
+    order: 0;
 }
 
 .navigation {
-    display: flex;
-    justify-content: flex-start;
-    background-color: pink;
+    order: -1;
 }
 
 .links {
-    display: flex;
-    justify-content: flex-end;
-    background-color: pink;
+    order: 1;
 }
 /* Layout 4 */
