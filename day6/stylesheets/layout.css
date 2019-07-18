@@ -56,3 +56,38 @@ main {
     order: 1;
 }
 /* Layout 4 */
+body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  header {
+    order: 1;
+  }
+
+  footer {
+    order: 2;
+  }
+  .middle {
+    order: 3;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .middle nav {
+    order: 0;
+  }
+
+  .middle main {
+    order: 1;
+  }
+
+  .middle .links {
+    order: 2;
+  }
+
+p:nth-child(3) {
+    font-size: 30px;
+    width: 30%;
+    float: left;
+  }
