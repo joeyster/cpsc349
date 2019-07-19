@@ -78,36 +78,37 @@ main {
 body {
     display: flex;
     flex-direction: column;
-  }
+}
 
-  header {
+header {
     order: 1;
-  }
+}
 
-  footer {
+footer {
     order: 3;
-  }
-  .middle {
+}
+
+.middle {
     order: 2;
     display: flex;
     flex-direction: row;
-  }
+}
 
-  .middle nav {
+.middle nav {
     order: 0;
-  }
+}
 
-  .middle main {
+.middle main {
     order: 1;
-  }
+}
 
-  .middle .links {
+.middle .links {
     order: 2;
-  }
+}
 
 p:nth-child(3) {
     font-size: 30px;
     width: 30%;
     float: left;
     margin: 1em;
-  }
+}
