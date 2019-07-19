@@ -44,7 +44,7 @@ h2 {
 } */
 
 /* Layout 3 */
-body {
+/* body {
     display: flex;
     flex-direction: column;
 }
@@ -73,7 +73,7 @@ main {
 
 .links {
     order: 1;
-}
+} */
 /* Layout 4 */
 body {
     display: flex;
@@ -109,8 +109,5 @@ p:nth-child(3) {
     font-size: 30px;
     width: 30%;
     float: left;
-    padding: 1em;
-    border-style: groove;
-    border-width: 5px;
     margin: 1em;
   }
